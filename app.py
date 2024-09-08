@@ -5,7 +5,7 @@ import google.generativeai as genai
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 
 # Configure google api key
-genai.configure(api_key='AIzaSyAj74_vKePZ4pSDbDCtOUp88m2AoGJedUE')
+genai.configure(api_key='your_google_api')
 
 # Function to load google gemini model and provide sql query as response
 def get_gemini_response(question, prompt):
